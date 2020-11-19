@@ -1,6 +1,6 @@
 {
   "name": "modules-map",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A map to register urls for modules",
   "main": "./cjs/index.js",
   "scripts": {

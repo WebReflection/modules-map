@@ -3,7 +3,7 @@
 A map to register urls for modules as [potential solution to this problem](https://lea.verou.me/2020/11/the-case-for-weak-dependencies-in-js/).
 
 ```js
-// the module owner should register the module
+// the module owner could register the module
 import {set: register} from 'modules-map';
 register('my-module', 'https://unpkg.com/my-module?module');
 
