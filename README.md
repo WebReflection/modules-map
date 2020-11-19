@@ -16,3 +16,5 @@ if (has('my-module'))
 ```
 
 The module itself registers the global `Mpdules.{get, set, has}` helper so that modules, bundlers, or even runtime scripts, can all benefit from the shared registry.
+
+**Note** this module requires browsers compatible with [dynamic `import(...)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Dynamic_Imports) so *it cannot work in IE11 or lower*.

@@ -12,7 +12,11 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "test": "nyc node test/index.js"
   },
-  "keywords": ["modules", "import", "map"],
+  "keywords": [
+    "modules",
+    "import",
+    "map"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
@@ -36,5 +40,13 @@
     },
     "./package.json": "./package.json"
   },
-  "unpkg": "min.js"
+  "unpkg": "min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/modules-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/modules-map/issues"
+  },
+  "homepage": "https://github.com/WebReflection/modules-map#readme"
 }
