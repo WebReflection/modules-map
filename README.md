@@ -1,5 +1,7 @@
 # Modules Map
 
+[![Coverage Status](https://coveralls.io/repos/github/WebReflection/modules-map/badge.svg?branch=main)](https://coveralls.io/github/WebReflection/modules-map?branch=main)
+
 A map to register urls for modules as [potential solution to this problem](https://lea.verou.me/2020/11/the-case-for-weak-dependencies-in-js/).
 
 ```js
