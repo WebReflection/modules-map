@@ -1,0 +1,1 @@
+self.Modules=function(e){"use strict";if(globalThis.Modules)({get:e.get,has:e.has,set:e.set}=Modules);else{const s=new Map;e.get=e=>import(s.get(e)),e.has=e=>s.has(e),e.set=(e,t)=>{s.has(e)&&console.warn("duplicated module",e),s.set(e,t)},globalThis.Modules={get:e.get,has:e.has,set:e.set}}return Object.defineProperty(e,"__esModule",{value:!0}),e}({});
