@@ -1,1 +1,1 @@
-self.Modules=function(e){"use strict";if(globalThis.Modules){var s=Modules;e.get=s.get,e.has=s.has,e.set=s.set}else{var t=new Map;e.get=function(e){return import(t.get(e))},e.has=function(e){return t.has(e)},e.set=function(e,s){t.has(e)&&console.warn("duplicated module",e),t.set(e,s)},globalThis.Modules={get:e.get,has:e.has,set:e.set}}return Object.defineProperty(e,"__esModule",{value:!0}),e}({});
+self.Modules||(self.Modules=new class extends Map{get(e){return import(super.get(e))}});
